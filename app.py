@@ -3,10 +3,6 @@ import pandas as pd
 import streamlit as st
 from streamlit_gsheets import GSheetsConnection
 
-#url1 = "https://docs.google.com/spreadsheets/d/1i27F6-m9R0VrA27TxZtgfuIV1StvkOFw1v6ewPrgrWs/edit?usp=sharing"
-#url2 = "https://docs.google.com/spreadsheets/d/1nBT6MEtra_IkoIinBisgNgsn2TiS-NsTtcMdrO1Y2EE/edit?usp=sharing"
-#url3 = "https://docs.google.com/spreadsheets/d/1Lp-k_DSKNLQ58xxC3ST7aert508402zVKC6Z4cgvjv8/edit?usp=sharing"
-
 url1 = st.secrets.gsheet1
 url2 = st.secrets.gsheet2
 url3 = st.secrets.gsheet3
