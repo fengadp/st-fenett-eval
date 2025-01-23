@@ -2,10 +2,6 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from streamlit_gsheets import GSheetsConnection
-from streamlit_autorefresh import st_autorefresh
-from collections import Counter
-
-#st_autorefresh(interval=10000, limit=None, key="refreshCounter")
 
 url1 = "https://docs.google.com/spreadsheets/d/1i27F6-m9R0VrA27TxZtgfuIV1StvkOFw1v6ewPrgrWs/edit?usp=sharing"
 url2 = "https://docs.google.com/spreadsheets/d/1nBT6MEtra_IkoIinBisgNgsn2TiS-NsTtcMdrO1Y2EE/edit?usp=sharing"
